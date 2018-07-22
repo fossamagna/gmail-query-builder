@@ -1,0 +1,60 @@
+{
+  "name": "gmail-query-builder",
+  "version": "1.0.0",
+  "description": "Gmail Query Builder",
+  "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
+  "keywords": [
+    "google",
+    "gmail",
+    "apps-script"
+  ],
+  "author": {
+    "name": "MURAKAMI Masahiko",
+    "email": "fossamagna2@gmail.com"
+  },
+  "repository": "fossamagna/gmail-query-builder",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "mkdirp lib && tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "23.3.0",
+    "jest": "23.4.1",
+    "jest-cli": "23.4.1",
+    "jest-junit": "5.1.0",
+    "mkdirp": "0.5.1",
+    "ts-jest": "23.0.1",
+    "tsutils": "2.28.0",
+    "typescript": "2.9.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "testMatch": [
+      "**/__tests__/**/*.test.(ts|js)"
+    ],
+    "reporters": [
+      "default",
+      "jest-junit"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.ts"
+    ],
+    "coverageReporters": [
+      "text",
+      "html"
+    ]
+  },
+  "jest-junit": {
+    "output": "./junit/junit.xml"
+  }
+}
