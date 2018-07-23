@@ -13,7 +13,7 @@ $ npm install gmail-query-builder --save
 ## Usage
 
 ```ts
-import QueryBuilder, { Unit } from '../src/index';
+import QueryBuilder from 'gmail-query-builder';
 
 const $q = QueryBuilder.q;
 const query = $q().subject(
