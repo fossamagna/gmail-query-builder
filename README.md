@@ -1,6 +1,6 @@
 # gmail-query-builder
 
-[![CircleCI][circleci-image]][circleci-url]
+ [![NPM version][npm-image]][npm-url] [![CircleCI][circleci-image]][circleci-url]
 
 Gmail query builder
 
@@ -26,5 +26,7 @@ console.log(query);
 // subject:(dinner movie)
 ```
 
+[npm-image]: https://badge.fury.io/js/gmail-query-builder.svg
+[npm-url]: https://npmjs.org/package/gmail-query-builder
 [circleci-image]: https://circleci.com/gh/fossamagna/gmail-query-builder.svg?style=svg
 [circleci-url]: https://circleci.com/gh/fossamagna/gmail-query-builder
