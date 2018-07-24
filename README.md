@@ -1,5 +1,7 @@
 # gmail-query-builder
 
+[![CircleCI][circleci-image]][circleci-url]
+
 Gmail query builder
 
 See https://support.google.com/mail/answer/7190
@@ -23,3 +25,6 @@ const query = $q().subject(
 console.log(query);
 // subject:(dinner movie)
 ```
+
+[circleci-image]: https://circleci.com/gh/fossamagna/gmail-query-builder.svg?style=svg
+[circleci-url]: https://circleci.com/gh/fossamagna/gmail-query-builder
