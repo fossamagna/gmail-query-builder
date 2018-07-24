@@ -1,6 +1,6 @@
 # gmail-query-builder
 
- [![NPM version][npm-image]][npm-url] [![CircleCI][circleci-image]][circleci-url]
+ [![NPM version][npm-image]][npm-url] [![CircleCI][circleci-image]][circleci-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
 Gmail query builder
 
@@ -30,3 +30,5 @@ console.log(query);
 [npm-url]: https://npmjs.org/package/gmail-query-builder
 [circleci-image]: https://circleci.com/gh/fossamagna/gmail-query-builder.svg?style=svg
 [circleci-url]: https://circleci.com/gh/fossamagna/gmail-query-builder
+[coveralls-image]: https://coveralls.io/repos/github/fossamagna/gmail-query-builder/badge.svg
+[coveralls-url]: https://coveralls.io/github/fossamagna/gmail-query-builder
