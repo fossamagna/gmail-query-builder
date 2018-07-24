@@ -17,10 +17,12 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
+    "coverage": "cat coverage/lcov.info | coveralls",
     "build": "mkdirp lib && tsc"
   },
   "devDependencies": {
     "@types/jest": "23.3.0",
+    "coveralls": "^3.0.2",
     "jest": "23.4.1",
     "jest-cli": "23.4.1",
     "jest-junit": "5.1.0",
@@ -51,7 +53,8 @@
     ],
     "coverageReporters": [
       "text",
-      "html"
+      "html",
+      "lcov"
     ]
   },
   "jest-junit": {

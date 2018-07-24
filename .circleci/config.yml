@@ -30,6 +30,9 @@ jobs:
           name: Test
           command: npm test
       - run:
+          name: Test
+          command: npm run coverage
+      - run:
           name: Build
           command: npm run build
       - save_cache:
