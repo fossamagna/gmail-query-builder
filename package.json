@@ -21,7 +21,7 @@
     "build": "mkdirp lib && tsc"
   },
   "devDependencies": {
-    "@types/jest": "23.3.0",
+    "@types/jest": "23.3.1",
     "coveralls": "^3.0.2",
     "jest": "23.4.1",
     "jest-cli": "23.4.1",
