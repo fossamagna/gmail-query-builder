@@ -28,7 +28,7 @@
     "jest-junit": "5.1.0",
     "mkdirp": "0.5.1",
     "ts-jest": "23.0.1",
-    "tsutils": "2.29.0",
+    "tsutils": "3.0.0",
     "typescript": "2.9.2"
   },
   "jest": {
