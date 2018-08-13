@@ -2,3 +2,4 @@ node_modules
 coverage
 junit
 lib
+dist

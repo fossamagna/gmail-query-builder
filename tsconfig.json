@@ -1,17 +1,5 @@
 {
-  "compilerOptions": {
-    "outDir": "./lib",
-    "target": "es3",
-    "module": "commonjs",
-    "declaration": true,
-    "sourceMap": true,
-    "strict": false,
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitAny" : true
-  },
+  "extends": "./tsconfig.base.json",
   "compileOnSave": true,
   "rootDir": "src",
   "include": [

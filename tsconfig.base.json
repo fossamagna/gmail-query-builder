@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "target": "es3",
+    "module": "commonjs",
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}

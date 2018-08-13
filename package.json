@@ -18,16 +18,27 @@
   "scripts": {
     "test": "jest",
     "coverage": "cat coverage/lcov.info | coveralls",
-    "build": "mkdirp lib && tsc"
+    "clean": "rimraf lib dist coverage junit",
+    "build": "mkdirp lib && tsc",
+    "prebuild:lib": "cp gas/appsscript.json dist/appsscript.json",
+    "build:lib": "browserify gas/index.ts -p [ tsify -p tsconfig.gas.json ] -p gasify -o dist/lib.js",
+    "preversion": "npm test",
+    "version": "npm run build",
+    "postversion": "git push && git push --tags && npm run clean"
   },
   "devDependencies": {
+    "@google/clasp": "1.5.2",
     "@types/jest": "23.3.1",
+    "browserify": "16.2.2",
     "coveralls": "^3.0.2",
+    "gasify": "0.1.2",
     "jest": "23.4.2",
     "jest-cli": "23.4.2",
     "jest-junit": "5.1.0",
     "mkdirp": "0.5.1",
+    "rimraf": "2.6.2",
     "ts-jest": "23.0.1",
+    "tsify": "4.0.0",
     "tsutils": "3.0.0",
     "typescript": "3.0.1"
   },
