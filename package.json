@@ -24,7 +24,7 @@
     "build:lib": "browserify gas/index.ts -p [ tsify -p tsconfig.gas.json ] -p gasify -o dist/lib.js",
     "preversion": "npm test",
     "version": "npm run build",
-    "postversion": "git push && git push --tags && npm run clean"
+    "postversion": "git push && git push --tags"
   },
   "devDependencies": {
     "@google/clasp": "1.5.2",
