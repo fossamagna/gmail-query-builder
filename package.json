@@ -29,7 +29,7 @@
   "devDependencies": {
     "@google/clasp": "1.5.3",
     "@types/jest": "23.3.2",
-    "browserify": "16.2.2",
+    "browserify": "16.2.3",
     "coveralls": "^3.0.2",
     "gasify": "0.1.2",
     "jest": "23.6.0",
