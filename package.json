@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@google/clasp": "1.7.0",
-    "@types/jest": "23.3.11",
+    "@types/jest": "23.3.12",
     "browserify": "16.2.3",
     "coveralls": "^3.0.2",
     "gasify": "1.0.0",
