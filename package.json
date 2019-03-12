@@ -39,7 +39,7 @@
     "rimraf": "2.6.3",
     "ts-jest": "24.0.0",
     "tsify": "4.0.1",
-    "tsutils": "3.9.0",
+    "tsutils": "3.9.1",
     "typescript": "3.3.3333"
   },
   "jest": {
