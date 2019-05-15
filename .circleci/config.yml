@@ -2,9 +2,9 @@ workflows:
   version: 2
   node-multi-build:
     jobs:
-      - node-v6
       - node-v8
       - node-v10
+      - node-v12
 
 version: 2
 jobs:
@@ -40,10 +40,6 @@ jobs:
           paths:
             - ~/usr/local/lib/node_modules
 
-  node-v6:
-    <<: *node-base
-    docker:
-      - image: node:6
   node-v8:
     <<: *node-base
     docker:
@@ -52,3 +48,7 @@ jobs:
     <<: *node-base
     docker:
       - image: node:10
+  node-v12:
+    <<: *node-base
+    docker:
+      - image: node:12
