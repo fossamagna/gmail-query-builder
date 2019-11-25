@@ -37,7 +37,7 @@
     "jest-junit": "8.0.0",
     "mkdirp": "0.5.1",
     "rimraf": "3.0.0",
-    "ts-jest": "24.1.0",
+    "ts-jest": "24.2.0",
     "tsify": "4.0.1",
     "tsutils": "3.17.1",
     "typescript": "3.6.3"
