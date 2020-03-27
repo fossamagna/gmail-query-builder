@@ -33,7 +33,7 @@
     "coveralls": "^3.0.2",
     "gasify": "1.0.0",
     "jest": "24.9.0",
-    "jest-cli": "25.1.0",
+    "jest-cli": "25.2.3",
     "jest-junit": "10.0.0",
     "mkdirp": "1.0.3",
     "rimraf": "3.0.2",
