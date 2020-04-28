@@ -32,7 +32,7 @@
     "browserify": "16.5.1",
     "coveralls": "^3.0.2",
     "gasify": "1.0.0",
-    "jest": "25.4.0",
+    "jest": "25.5.0",
     "jest-cli": "25.4.0",
     "jest-junit": "10.0.0",
     "mkdirp": "1.0.4",
