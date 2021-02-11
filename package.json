@@ -40,7 +40,7 @@
     "ts-jest": "25.5.1",
     "tsify": "5.0.2",
     "tsutils": "3.17.1",
-    "typescript": "3.9.8"
+    "typescript": "3.9.9"
   },
   "jest": {
     "testEnvironment": "node",
