@@ -27,7 +27,7 @@
     "postversion": "git push && git push --tags"
   },
   "devDependencies": {
-    "@google/clasp": "2.3.2",
+    "@google/clasp": "2.4.0",
     "@types/jest": "26.0.23",
     "browserify": "17.0.0",
     "coveralls": "^3.0.2",
