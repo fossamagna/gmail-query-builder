@@ -34,7 +34,7 @@
     "gasify": "1.0.1",
     "jest": "27.2.4",
     "jest-cli": "27.2.4",
-    "jest-junit": "12.3.0",
+    "jest-junit": "13.0.0",
     "mkdirp": "1.0.4",
     "rimraf": "3.0.2",
     "ts-jest": "27.0.5",
